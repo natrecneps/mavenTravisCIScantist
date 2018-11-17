@@ -26,11 +26,11 @@
 
 	  
 	  
-<!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 <dependency>
-    <groupId>org.apache.struts</groupId>
-    <artifactId>struts2-core</artifactId>
-    <version>2.2.1</version>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-context</artifactId>
+    <version>2.5</version>
 </dependency>
 
   </dependencies>
@@ -42,17 +42,29 @@
       <name>test1</name>
       <url>http://central.maven.org/maven2/</url>
   </repository>
-  <repository>
 	  
-	  <id>apache</id>
+  <repository>
+	  <id>alfresco</id>
       <name>test2</name>
-      <url>https://repository.apache.org/content/repositories/releases/</url>
+      <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
   </repository>
 	  
   <repository>
-	  <id>ibiblio</id>
+	  <id>bedatadriven</id>
       <name>test3</name>
-      <url>http://maven.ibiblio.org/maven2/</url>
+      <url>https://nexus.bedatadriven.com/content/repositories/public/</url>
+  </repository>
+	  
+  <repository>
+	  <id>sonatype</id>
+      <name>test3</name>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+  </repository>
+	  
+  <repository>
+	  <id>springreleases</id>
+      <name>test3</name>
+      <url>http://repo.spring.io/release/</url>
   </repository>
 	  
   </repositories>
