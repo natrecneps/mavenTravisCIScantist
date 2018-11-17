@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
+<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-core -->
 <dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-context</artifactId>
-    <version>2.5.5</version>
+    <groupId>org.apache.camel</groupId>
+    <artifactId>camel-core</artifactId>
+    <version>2.13.3</version>
 </dependency>
 
   </dependencies>
@@ -42,33 +42,15 @@
   </repository>
 	  
   <repository>
-	  <id>alfresco</id>
+	  <id>apache</id>
       <name>test2</name>
-      <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
-  </repository>
-	  
-<repository>
-	  <id>atricorerepository</id>
-      <name>test3</name>
-      <url>http://repository.atricore.org/m2-release-repository/</url>
+      <url>https://repository.apache.org/content/repositories/releases/</url>
   </repository>
 	  
  <repository>
-	  <id>bedatadrivenrepository</id>
-      <name>test4</name>
-      <url>https://nexus.bedatadriven.com/content/repositories/public/</url>
-  </repository>
-	  
-  <repository>
-	  <id>sonatyperepository</id>
-      <name>test5</name>
-      <url>https://oss.sonatype.org/content/repositories/releases/</url>
-  </repository>
-	  
-	    <repository>
-	  <id>springreleasesrepository</id>
-      <name>test6</name>
-      <url>http://repo.spring.io/release/</url>
+	  <id>springlib</id>
+      <name>test3</name>
+      <url>http://repo.spring.io/libs-milestone/</url>
   </repository>
 	  
   </repositories>
