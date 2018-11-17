@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-context -->
 <dependency>
     <groupId>org.springframework</groupId>
-    <artifactId>spring-webmvc</artifactId>
-    <version>3.0.0.RELEASE</version>
+    <artifactId>spring-context</artifactId>
+    <version>2.5</version>
 </dependency>
 
   </dependencies>
@@ -47,15 +47,21 @@
       <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
   </repository>
 	  
-  <repository>
-	  <id>sonatype</id>
+	    <repository>
+	  <id>bedatadrivenrepository</id>
       <name>test3</name>
-      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+      <url>https://nexus.bedatadriven.com/content/repositories/public/</url>
   </repository>
 	  
   <repository>
-	  <id>springreleasesrepository</id>
+	  <id>sonatype</id>
       <name>test4</name>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+  </repository>
+	  
+	    <repository>
+	  <id>springreleasesrepository</id>
+      <name>test5</name>
       <url>http://repo.spring.io/release/</url>
   </repository>
 	  
