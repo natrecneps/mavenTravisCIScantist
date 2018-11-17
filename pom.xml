@@ -30,7 +30,16 @@
     	<artifactId>spring-context</artifactId>
     	<version>2.5</version>
 	</dependency>
-
 	  
   </dependencies>
+	
+	<repositories>
+		
+	<repository>
+	<id>maven</id>
+      	<name>maven central repo</name>
+      	<url>http://central.maven.org/maven2/</url>
+ 	</repository>
+	
+	</repositories>
 </project>
