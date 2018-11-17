@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
+<!-- https://mvnrepository.com/artifact/org.apache.cxf.fediz/fediz-core -->
 <dependency>
-    <groupId>org.bouncycastle</groupId>
-    <artifactId>bcprov-jdk15on</artifactId>
-    <version>1.54</version>
+    <groupId>org.apache.cxf.fediz</groupId>
+    <artifactId>fediz-core</artifactId>
+    <version>1.2.2</version>
 </dependency>
 
   </dependencies>
@@ -42,21 +42,9 @@
   </repository>
 	  
   <repository>
-	  <id>redhat</id>
+	  <id>xceptance</id>
       <name>test2</name>
-      <url>https://maven.repository.redhat.com/ga/</url>
-  </repository>
-	  
- <repository>
-	  <id>sonatype</id>
-      <name>test3</name>
-      <url>https://oss.sonatype.org/content/repositories/releases/</url>
-  </repository>
-	  
-  <repository>
-	  <id>springsplugin</id>
-      <name>test4</name>
-      <url>http://repo.spring.io/plugins-release/</url>
+      <url>https://lab.xceptance.de/nexus/content/repositories/public/</url>
   </repository>
 	  
   </repositories>
