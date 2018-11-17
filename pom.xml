@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.apache.cxf/cxf-rt-frontend-jaxws -->
+<!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
 <dependency>
-    <groupId>org.apache.cxf</groupId>
-    <artifactId>cxf-rt-frontend-jaxws</artifactId>
-    <version>2.7.7</version>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>2.3.1.2</version>
 </dependency>
 
   </dependencies>
@@ -48,9 +48,15 @@
   </repository>
 	  
 <repository>
-	  <id>mulesoftrepository</id>
+	  <id>ibibliorepository</id>
       <name>test3</name>
-      <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+      <url>http://maven.ibiblio.org/maven2/</url>
+  </repository>
+	  
+<repository>
+	  <id>springlibmrepository</id>
+      <name>test4</name>
+      <url>http://repo.spring.io/libs-milestone/</url>
   </repository>
 	  
   </repositories>
