@@ -23,105 +23,38 @@
   </properties>
 	
   <dependencies>
-<!-- https://mvnrepository.com/artifact/org.jboss.fuse/jboss-fuse -->
+
+	  
+	  
+<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
 <dependency>
-    <groupId>org.b3log</groupId>
-    <artifactId>latke-repository-sqlserver</artifactId>
-    <version>2.4.9</version>
+    <groupId>org.apache.tomcat</groupId>
+    <artifactId>tomcat-catalina</artifactId>
+    <version>7.0.0</version>
 </dependency>
-
-<dependency>
-      <groupId>com.google.code.findbugs</groupId>
-      <artifactId>jsr305</artifactId>
-      <version>3.0.1</version>
-    </dependency>
-    <dependency>
-      <groupId>args4j</groupId>
-      <artifactId>args4j</artifactId>
-      <version>2.33</version>
-    </dependency>
-    <dependency>
-      <groupId>javax.inject</groupId>
-      <artifactId>javax.inject</artifactId>
-      <version>1</version>
-    </dependency>
-    <dependency>
-      <groupId>org.springframework</groupId>
-      <artifactId>spring-context</artifactId>
-      <version>4.2.5.RELEASE</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-logging</groupId>
-      <artifactId>commons-logging</artifactId>
-      <version>1.0.2</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-io</groupId>
-      <artifactId>commons-io</artifactId>
-      <version>2.0</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.httpcomponents</groupId>
-      <artifactId>httpclient</artifactId>
-      <version>4.3.5</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-net</groupId>
-      <artifactId>commons-net</artifactId>
-      <version>3.3</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-codec</groupId>
-      <artifactId>commons-codec</artifactId>
-      <version>1.6</version>
-    </dependency>
-    <dependency>
-      <groupId>org.apache.poi</groupId>
-      <artifactId>poi</artifactId>
-      <version>3.6</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-beanutils</groupId>
-      <artifactId>commons-beanutils</artifactId>
-      <version>1.9.0</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-collections</groupId>
-      <artifactId>commons-collections</artifactId>
-      <version>1.0</version>
-    </dependency>
-    <dependency>
-      <groupId>commons-fileupload</groupId>
-      <artifactId>commons-fileupload</artifactId>
-      <version>1.2.1</version>
-    </dependency>
-
 
   </dependencies>
   
   <repositories>
+	  
 <repository>
 	  <id>maven</id>
-      <name>test3</name>
-      <url>https://repo.maven.apache.org/maven2/</url>
+      <name>test1</name>
+      <url>http://central.maven.org/maven2/</url>
   </repository>
   <repository>
-	  <id>jboss</id>
-      <name>test5</name>
-      <url>https://repository.jboss.org/nexus/content/repositories/ea/</url>
-  </repository>
-  <repository>
-	  <id>alfresco</id>
+	  
+	  <id>apache</id>
       <name>test2</name>
-      <url>http://maven.nuiton.org/release/</url>
+      <url>https://repository.apache.org/content/repositories/releases/</url>
   </repository>
-  
+	  
   <repository>
-	  <id>spring</id>
-      <name>test</name>
-      <url>https://repo.spring.io/libs-release/</url>
+	  <id>mulesoft</id>
+      <name>test3</name>
+      <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
   </repository>
+	  
   </repositories>
   
-
 </project>
