@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
+<!-- https://mvnrepository.com/artifact/org.webjars.bower/mxgraph -->
 <dependency>
-    <groupId>org.apache.poi</groupId>
-    <artifactId>poi</artifactId>
-    <version>3.16</version>
+    <groupId>org.webjars.bower</groupId>
+    <artifactId>mxgraph</artifactId>
+    <version>3.7.4</version>
 </dependency>
 
   </dependencies>
@@ -42,9 +42,9 @@
   </repository>
 	  
 <repository>
-	  <id>springlibm</id>
+	  <id>sonatype</id>
       <name>test2</name>
-      <url>http://repo.spring.io/libs-milestone/</url>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
   </repository>
 
 <repository>
