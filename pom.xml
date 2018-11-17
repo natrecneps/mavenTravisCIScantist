@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.apache.camel/camel-core -->
+<!-- https://mvnrepository.com/artifact/org.bouncycastle/bcprov-jdk15on -->
 <dependency>
-    <groupId>org.apache.camel</groupId>
-    <artifactId>camel-core</artifactId>
-    <version>2.13.3</version>
+    <groupId>org.bouncycastle</groupId>
+    <artifactId>bcprov-jdk15on</artifactId>
+    <version>1.54</version>
 </dependency>
 
   </dependencies>
@@ -42,15 +42,21 @@
   </repository>
 	  
   <repository>
-	  <id>apache</id>
+	  <id>redhat</id>
       <name>test2</name>
-      <url>https://repository.apache.org/content/repositories/releases/</url>
+      <url>https://maven.repository.redhat.com/ga/</url>
   </repository>
 	  
  <repository>
-	  <id>springlib</id>
+	  <id>sonatype</id>
       <name>test3</name>
-      <url>http://repo.spring.io/libs-milestone/</url>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+  </repository>
+	  
+  <repository>
+	  <id>springsplugin</id>
+      <name>test4</name>
+      <url>http://repo.spring.io/plugins-release/</url>
   </repository>
 	  
   </repositories>
