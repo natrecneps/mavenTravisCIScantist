@@ -41,5 +41,29 @@
       	<url>http://central.maven.org/maven2/</url>
  	</repository>
 	
+	<repository>
+	<id>alfresco</id>
+      	<name>alfresco repo</name>
+      	<url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+ 	</repository>
+		
+	<repository>
+	<id>bedatadriven</id>
+      	<name>bedatadriven repo</name>
+      	<url>https://nexus.bedatadriven.com/content/repositories/public/</url>
+ 	</repository>
+
+	<repository>
+	<id>sonatype</id>
+      	<name>sonatype repo</name>
+      	<url>https://oss.sonatype.org/content/repositories/releases/</url>
+ 	</repository>
+		
+	<repository>
+	<id>spring</id>
+      	<name>spring releases repo</name>
+      	<url>http://repo.spring.io/release/</url>
+ 	</repository>		
+		
 	</repositories>
 </project>
