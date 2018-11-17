@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
+<!-- https://mvnrepository.com/artifact/org.springframework/spring-webmvc -->
 <dependency>
-    <groupId>org.apache.struts</groupId>
-    <artifactId>struts2-core</artifactId>
-    <version>2.3.15</version>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-webmvc</artifactId>
+    <version>3.0.0.RELEASE</version>
 </dependency>
 
   </dependencies>
@@ -42,15 +42,21 @@
   </repository>
 	  
   <repository>
-	  <id>apachereleasesrepository</id>
+	  <id>alfresco</id>
       <name>test2</name>
-      <url>https://repository.apache.org/content/repositories/releases/</url>
+      <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
   </repository>
 	  
   <repository>
-	  <id>ibiblio</id>
+	  <id>sonatype</id>
       <name>test3</name>
-      <url>http://maven.ibiblio.org/maven2/</url>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+  </repository>
+	  
+  <repository>
+	  <id>springreleasesrepository</id>
+      <name>test4</name>
+      <url>http://repo.spring.io/release/</url>
   </repository>
 	  
   </repositories>
