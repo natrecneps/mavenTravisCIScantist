@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.apache.syncope/syncope-core -->
+<!-- https://mvnrepository.com/artifact/org.apache.poi/poi -->
 <dependency>
-    <groupId>org.apache.syncope</groupId>
-    <artifactId>syncope-common</artifactId>
-    <version>1.1.0</version>
+    <groupId>org.apache.poi</groupId>
+    <artifactId>poi</artifactId>
+    <version>3.14</version>
 </dependency>
 
   </dependencies>
@@ -39,24 +39,6 @@
 	  <id>maven</id>
       <name>test1</name>
       <url>http://central.maven.org/maven2/</url>
-  </repository>
-	  
-<repository>
-	  <id>apache</id>
-      <name>test2</name>
-      <url>https://repository.apache.org/content/repositories/releases/</url>
-  </repository>
-	  
-<repository>
-	  <id>springlibm</id>
-      <name>test3</name>
-      <url>http://repo.spring.io/libs-milestone/</url>
-  </repository>
-
-<repository>
-	  <id>springplugins</id>
-      <name>test4</name>
-      <url>http://repo.spring.io/plugins-release/</url>
   </repository>
 	  
   </repositories>
