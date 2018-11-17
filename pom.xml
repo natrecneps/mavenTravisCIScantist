@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-rest-webmvc -->
+<!-- https://mvnrepository.com/artifact/com.fasterxml.jackson.core/jackson-databind -->
 <dependency>
-    <groupId>org.springframework.data</groupId>
-    <artifactId>spring-data-rest-webmvc</artifactId>
-    <version>2.6.8.RELEASE</version>
+    <groupId>com.fasterxml.jackson.core</groupId>
+    <artifactId>jackson-databind</artifactId>
+    <version>2.6.7.1</version>
 </dependency>
 
   </dependencies>
@@ -42,8 +42,14 @@
   </repository>
 	  
   <repository>
-	  <id>sonatype</id>
+	  <id>mulesoft</id>
       <name>test2</name>
+      <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+  </repository>
+	  
+<repository>
+	  <id>sonatype</id>
+      <name>test3</name>
       <url>https://oss.sonatype.org/content/repositories/releases/</url>
   </repository>
 	  
