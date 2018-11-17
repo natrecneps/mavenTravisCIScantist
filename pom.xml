@@ -24,11 +24,11 @@
 	
   <dependencies>
 	  
-<!-- https://mvnrepository.com/artifact/org.apache.ignite/ignite-core -->
+<!-- https://mvnrepository.com/artifact/org.springframework.data/spring-data-rest-webmvc -->
 <dependency>
-    <groupId>org.apache.ignite</groupId>
-    <artifactId>ignite-core</artifactId>
-    <version>1.8.0</version>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-rest-webmvc</artifactId>
+    <version>2.6.8.RELEASE</version>
 </dependency>
 
   </dependencies>
@@ -39,6 +39,12 @@
 	  <id>maven</id>
       <name>test1</name>
       <url>http://central.maven.org/maven2/</url>
+  </repository>
+	  
+  <repository>
+	  <id>sonatype</id>
+      <name>test2</name>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
   </repository>
 	  
   </repositories>
