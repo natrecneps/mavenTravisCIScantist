@@ -26,11 +26,11 @@
 
 	  
 	  
-<!-- https://mvnrepository.com/artifact/org.apache.tomcat/tomcat-catalina -->
+<!-- https://mvnrepository.com/artifact/org.apache.struts/struts2-core -->
 <dependency>
-    <groupId>org.apache.tomcat</groupId>
-    <artifactId>tomcat-catalina</artifactId>
-    <version>7.0.0</version>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>2.2.1</version>
 </dependency>
 
   </dependencies>
@@ -50,9 +50,9 @@
   </repository>
 	  
   <repository>
-	  <id>mulesoft</id>
+	  <id>ibiblio</id>
       <name>test3</name>
-      <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+      <url>http://maven.ibiblio.org/maven2/</url>
   </repository>
 	  
   </repositories>
