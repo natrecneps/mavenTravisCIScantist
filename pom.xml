@@ -25,10 +25,9 @@
   <dependencies>
 	  
 <dependency>
-    <groupId>com.google.android</groupId>
-    <artifactId>android</artifactId>
-    <version>4.1.1.4</version>
-    <scope>provided</scope>
+    <groupId>org.apache.directory.mina</groupId>
+    <artifactId>mina-integration-spring</artifactId>
+    <version>0.9.4</version>
 </dependency>
 
   </dependencies>
@@ -42,21 +41,27 @@
   </repository>
 	  
 	  <repository>
-	  <id>boundless</id>
+	  <id>apachepublic</id>
       <name>test2</name>
-      <url>http://repo.boundlessgeo.com/main/</url>
+      <url>https://repository.apache.org/content/repositories/public/</url>
   </repository>
 	  
 	  <repository>
-	  <id>sonatype</id>
+	  <id>apachereleases</id>
       <name>test3</name>
-      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+      <url>https://repository.apache.org/content/repositories/releases/</url>
   </repository>
 	  
 	  <repository>
 	  <id>springlib</id>
       <name>test4</name>
       <url>http://repo.spring.io/libs-milestone/</url>
+  </repository>
+
+ <repository>
+	  <id>springplugins</id>
+      <name>test5</name>
+      <url>http://repo.spring.io/plugins-release/</url>
   </repository>
 	  
   </repositories>
