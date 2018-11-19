@@ -25,9 +25,9 @@
   <dependencies>
 	  
 <dependency>
-    <groupId>com.dotcms</groupId>
-    <artifactId>dotcms</artifactId>
-    <version>3.2.1</version>
+    <groupId>org.jboss.seam</groupId>
+    <artifactId>jboss-seam</artifactId>
+    <version>2.3.1.CR1</version>
 </dependency>
 
   </dependencies>
@@ -35,9 +35,27 @@
   <repositories>
 	  
 <repository>
-    <id>repo.dotcms.com</id>
-    <name>repo.dotcms.com-releases</name>
-    <url>http://repo.dotcms.com/artifactory/libs-release-local</url>
+    <id>springplugins/id>
+    <name>test1</name>
+    <url>http://repo.spring.io/plugins-release/</url>
+</repository>
+	  
+	  <repository>
+    <id>jbossreleases</id>
+    <name>test2</name>
+    <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+</repository>
+	  
+	  <repository>
+    <id>mulesoft</id>
+    <name>test3</name>
+    <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
+</repository>
+	  
+	  <repository>
+    <id>springlibm</id>
+    <name>test4</name>
+    <url>http://repo.spring.io/libs-milestone/</url>
 </repository>
 	  
   </repositories>
