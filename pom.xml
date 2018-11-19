@@ -40,7 +40,7 @@
     <url>http://central.maven.org/maven2/</url>
 </repository>
 	  
-B<repository>
+<repository>
     <id>alfresco</id>
     <name>test2</name>
     <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
