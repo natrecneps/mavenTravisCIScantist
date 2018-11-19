@@ -25,15 +25,10 @@
   <dependencies>
 	  
 <dependency>
-  <groupId>com.jamonapi</groupId>
-  <artifactId>jamon</artifactId>
-  <version>2.0</version>
-</dependency>
-	  
-	  <dependency>
-  <groupId>org.apache.axis2</groupId>
-  <artifactId>org.apache.axis2.osgi</artifactId>
-  <version>1.6.2</version>
+    <groupId>com.google.android</groupId>
+    <artifactId>android</artifactId>
+    <version>4.1.1.4</version>
+    <scope>provided</scope>
 </dependency>
 
   </dependencies>
@@ -44,6 +39,24 @@
 	  <id>maven</id>
       <name>test1</name>
       <url>http://central.maven.org/maven2/</url>
+  </repository>
+	  
+	  <repository>
+	  <id>boundless</id>
+      <name>test2</name>
+      <url>http://repo.boundlessgeo.com/main/</url>
+  </repository>
+	  
+	  <repository>
+	  <id>sonatype</id>
+      <name>test3</name>
+      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+  </repository>
+	  
+	  <repository>
+	  <id>springlib</id>
+      <name>test4</name>
+      <url>http://repo.spring.io/libs-milestone/</url>
   </repository>
 	  
   </repositories>
