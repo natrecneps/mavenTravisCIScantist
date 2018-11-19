@@ -27,7 +27,7 @@
 <dependency>
     <groupId>org.jboss.seam</groupId>
     <artifactId>jboss-seam</artifactId>
-    <version>2.3.1.CR1</version>
+    <version>2.2.2.Final</version>
 </dependency>
 
   </dependencies>
@@ -35,27 +35,9 @@
   <repositories>
 	  
 <repository>
-    <id>springplugins/id>
-    <name>test1</name>
-    <url>http://repo.spring.io/plugins-release/</url>
-</repository>
-	  
-	  <repository>
-    <id>jbossreleases</id>
-    <name>test2</name>
+    <id>JBoss Releases</id>
+    <name>JBoss Releases</name>
     <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
-</repository>
-	  
-	  <repository>
-    <id>mulesoft</id>
-    <name>test3</name>
-    <url>https://repository.mulesoft.org/nexus/content/repositories/public/</url>
-</repository>
-	  
-	  <repository>
-    <id>springlibm</id>
-    <name>test4</name>
-    <url>http://repo.spring.io/libs-milestone/</url>
 </repository>
 	  
   </repositories>
