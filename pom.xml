@@ -24,10 +24,10 @@
 	
   <dependencies>
 	  
-  <dependency>
-  <groupId>tomcat</groupId>
-  <artifactId>catalina-balancer</artifactId>
-  <version>5.5.12</version>
+<dependency>
+    <groupId>com.atlassian.browsers</groupId>
+    <artifactId>firefox</artifactId>
+    <version>38.0</version>
 </dependency>
 
   </dependencies>
@@ -35,9 +35,21 @@
   <repositories>
 	  
 <repository>
-	  <id>central</id>
+	  <id>atlassian</id>
       <name>test1</name>
-      <url>http://central.maven.org/maven2/</url>
+      <url>https://maven.atlassian.com/content/repositories/atlassian-public/</url>
+  </repository>
+	  
+	  <repository>
+	  <id>springlibm</id>
+      <name>test2</name>
+      <url>http://repo.spring.io/libs-milestone/</url>
+  </repository>
+	  
+	  <repository>
+	  <id>springplugins/id>
+      <name>test3</name>
+      <url>http://repo.spring.io/plugins-release/</url>
   </repository>
 	  
   </repositories>
