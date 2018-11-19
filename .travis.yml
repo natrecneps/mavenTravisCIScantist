@@ -8,6 +8,6 @@ jdk:
 
 after_success:
 - mvn --version
-- cd
-- dir
+- TRAVIS_BUILD_DIR
+- echo TRAVIS_BUILD_DIR
   - bash <(curl -s https://s3-ap-southeast-1.amazonaws.com/ci-scan/ff-start-travis.sh)
