@@ -25,9 +25,9 @@
   <dependencies>
 	  
 <dependency>
-    <groupId>org.apache.directory.mina</groupId>
-    <artifactId>mina-integration-spring</artifactId>
-    <version>0.9.4</version>
+  <groupId>org.apache.geode</groupId>
+  <artifactId>geode-core</artifactId>
+  <version>1.2.0</version>
 </dependency>
 
   </dependencies>
@@ -38,30 +38,6 @@
 	  <id>maven</id>
       <name>test1</name>
       <url>http://central.maven.org/maven2/</url>
-  </repository>
-	  
-	  <repository>
-	  <id>apachepublic</id>
-      <name>test2</name>
-      <url>https://repository.apache.org/content/repositories/public/</url>
-  </repository>
-	  
-	  <repository>
-	  <id>apachereleases</id>
-      <name>test3</name>
-      <url>https://repository.apache.org/content/repositories/releases/</url>
-  </repository>
-	  
-	  <repository>
-	  <id>springlib</id>
-      <name>test4</name>
-      <url>http://repo.spring.io/libs-milestone/</url>
-  </repository>
-
- <repository>
-	  <id>springplugins</id>
-      <name>test5</name>
-      <url>http://repo.spring.io/plugins-release/</url>
   </repository>
 	  
   </repositories>
