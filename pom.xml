@@ -25,19 +25,32 @@
   <dependencies>
 	  
 <dependency>
-    <groupId>com.redhat.thermostat</groupId>
-    <artifactId>thermostat-common</artifactId>
-    <version>0.1.4</version>
+    <groupId>org.springframework</groupId>
+    <artifactId>spring-test</artifactId>
+    <version>5.0.4.RELEASE</version>
+    <scope>test</scope>
 </dependency>
 
   </dependencies>
   
   <repositories>
 	  
+	    <repository>
+    <id>central</id>
+    <name>test1</name>
+    <url>http://central.maven.org/maven2/</url>
+</repository>
+	  
   <repository>
     <id>sonatype</id>
-    <name>test1</name>
+    <name>test2</name>
     <url>https://oss.sonatype.org/content/repositories/releases/</url>
+</repository>
+	  
+	    <repository>
+    <id>springreleases</id>
+    <name>test3</name>
+    <url>http://repo.spring.io/release/</url>
 </repository>
 	  
   </repositories>
