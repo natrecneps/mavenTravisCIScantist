@@ -25,9 +25,9 @@
   <dependencies>
 	  
 <dependency>
-    <groupId>com.atlassian.browsers</groupId>
-    <artifactId>firefox</artifactId>
-    <version>38.0</version>
+    <groupId>com.dotcms</groupId>
+    <artifactId>dotcms</artifactId>
+    <version>3.2.1</version>
 </dependency>
 
   </dependencies>
@@ -35,22 +35,10 @@
   <repositories>
 	  
 <repository>
-	  <id>atlassian</id>
-      <name>test1</name>
-      <url>https://maven.atlassian.com/content/repositories/atlassian-public/</url>
-  </repository>
-	  
-	  <repository>
-	  <id>springlibm</id>
-      <name>test2</name>
-      <url>http://repo.spring.io/libs-milestone/</url>
-  </repository>
-	  
-	  <repository>
-	  <id>springplugins/id>
-      <name>test3</name>
-      <url>http://repo.spring.io/plugins-release/</url>
-  </repository>
+    <id>repo.dotcms.com</id>
+    <name>repo.dotcms.com-releases</name>
+    <url>http://repo.dotcms.com/artifactory/libs-release-local</url>
+</repository>
 	  
   </repositories>
   
