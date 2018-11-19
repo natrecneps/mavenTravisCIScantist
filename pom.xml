@@ -23,11 +23,11 @@
   </properties>
 	
   <dependencies>
+	  
 <dependency>
-  <groupId>com.atlassian.browsers</groupId>
-  <artifactId>firefox</artifactId>
-  <version>38.0</version>
-  <classifier>windows</classifier>
+  <groupId>org.apache.axis2</groupId>
+  <artifactId>org.apache.axis2.osgi</artifactId>
+  <version>1.6.2</version>
 </dependency>
 
   </dependencies>
@@ -37,7 +37,7 @@
 <repository>
 	  <id>maven</id>
       <name>test1</name>
-      <url>https://repository.sonatype.org/content/groups/forge/</url>
+      <url>http://central.maven.org/maven2/</url>
   </repository>
 	  
   </repositories>
