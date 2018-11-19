@@ -23,12 +23,7 @@
   </properties>
 	
   <dependencies>
-	  
-<dependency>
-  <groupId>com.atlassian.browsers</groupId>
-  <artifactId>firefox</artifactId>
-  <version>38.0</version>
-</dependency>
+
 
   </dependencies>
   
