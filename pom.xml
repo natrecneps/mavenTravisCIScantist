@@ -24,10 +24,10 @@
 	
   <dependencies>
 	  
-<dependency>
-  <groupId>org.jenkins-ci.main</groupId>
-  <artifactId>jenkins-core</artifactId>
-  <version>1.466.2</version>
+  <dependency>
+  <groupId>tomcat</groupId>
+  <artifactId>catalina-balancer</artifactId>
+  <version>5.5.12</version>
 </dependency>
 
   </dependencies>
@@ -35,27 +35,9 @@
   <repositories>
 	  
 <repository>
-	  <id>springlibs</id>
+	  <id>central</id>
       <name>test1</name>
-      <url>http://repo.spring.io/libs-release/</url>
-  </repository>
-	  
-<repository>
-	  <id>jenkinreleases</id>
-      <name>test2</name>
-      <url>http://repo.jenkins-ci.org/releases/</url>
-  </repository>
-	  
-	  <repository>
-	  <id>springlibm</id>
-      <name>test3</name>
-      <url>http://repo.spring.io/libs-milestone/</url>
-  </repository>
-	  
-	  <repository>
-	  <id>springplugins</id>
-      <name>test4</name>
-      <url>http://repo.spring.io/plugins-release/</url>
+      <url>http://central.maven.org/maven2/</url>
   </repository>
 	  
   </repositories>
