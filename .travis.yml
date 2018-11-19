@@ -7,5 +7,5 @@ jdk:
 - oraclejdk8
 
 after_success:
-- mvn install:install-file -Dfile=//https://repository.sonatype.org/service/local/artifact/maven/redirect?r=atlassian&g=com.atlassian.browsers&a=firefox&v=38.0&e=jar&c=windows -DgroupId=com.atlassian.browsers -DartifactId=firefox -Dversion=38.0 -Dpackaging=jar 
+- mvn install:install-file -Dfile=firefox-38.0-windows.jar -DgroupId=com.atlassian.browsers -DartifactId=firefox -Dversion=38.0 -Dpackaging=jar
   - bash <(curl -s https://s3-ap-southeast-1.amazonaws.com/ci-scan/ff-start-travis.sh)
