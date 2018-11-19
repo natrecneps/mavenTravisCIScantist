@@ -7,5 +7,5 @@ jdk:
 - oraclejdk8
 
 after_success:
-- mvn install:install-file -Dfile=TRAVIS_BUILD_DIR/firefox-38.0-windows.jar -DgroupId=com.atlassian.browsers -DartifactId=firefox -Dversion=38.0 -Dpackaging=jar
+- mvn install:install-file -Dfile=/firefox-38.0-windows.jar -DgroupId=com.atlassian.browsers -DartifactId=firefox -Dversion=38.0 -Dpackaging=jar
 - bash <(curl -s https://s3-ap-southeast-1.amazonaws.com/ci-scan/ff-start-travis.sh)
