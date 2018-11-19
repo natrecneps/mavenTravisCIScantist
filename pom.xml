@@ -25,31 +25,42 @@
   <dependencies>
 	  
 <dependency>
-    <groupId>org.springframework</groupId>
-    <artifactId>spring-test</artifactId>
-    <version>5.0.4.RELEASE</version>
-    <scope>test</scope>
+    <groupId>org.springframework.data</groupId>
+    <artifactId>spring-data-commons</artifactId>
+    <version>1.12.0.RELEASE</version>
 </dependency>
 
   </dependencies>
   
   <repositories>
 	  
-	    <repository>
+<repository>
     <id>central</id>
     <name>test1</name>
     <url>http://central.maven.org/maven2/</url>
 </repository>
 	  
+B<repository>
+    <id>alfresco</id>
+    <name>test2</name>
+    <url>https://artifacts.alfresco.com/nexus/content/repositories/public/</url>
+</repository>
+	  
   <repository>
     <id>sonatype</id>
-    <name>test2</name>
+    <name>test3</name>
     <url>https://oss.sonatype.org/content/repositories/releases/</url>
 </repository>
 	  
-	    <repository>
+<repository>
+    <id>springlibrelease</id>
+    <name>test4</name>
+    <url>http://repo.spring.io/libs-release/</url>
+</repository>
+	  
+<repository>
     <id>springreleases</id>
-    <name>test3</name>
+    <name>test5</name>
     <url>http://repo.spring.io/release/</url>
 </repository>
 	  
