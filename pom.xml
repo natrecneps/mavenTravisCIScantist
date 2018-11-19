@@ -25,9 +25,9 @@
   <dependencies>
 	  
 <dependency>
-  <groupId>org.onosproject</groupId>
-  <artifactId>onos-app-oecfg</artifactId>
-  <version>1.0.0</version>
+  <groupId>org.jenkins-ci.main</groupId>
+  <artifactId>jenkins-core</artifactId>
+  <version>1.466.2</version>
 </dependency>
 
   </dependencies>
@@ -35,15 +35,27 @@
   <repositories>
 	  
 <repository>
-	  <id>maven</id>
+	  <id>springlibs</id>
       <name>test1</name>
-      <url>http://central.maven.org/maven2/</url>
+      <url>http://repo.spring.io/libs-release/</url>
   </repository>
 	  
 <repository>
-	  <id>sonatype</id>
+	  <id>jenkinreleases</id>
       <name>test2</name>
-      <url>https://oss.sonatype.org/content/repositories/releases/</url>
+      <url>http://repo.jenkins-ci.org/releases/</url>
+  </repository>
+	  
+	  <repository>
+	  <id>springlibm</id>
+      <name>test3</name>
+      <url>http://repo.spring.io/libs-milestone/</url>
+  </repository>
+	  
+	  <repository>
+	  <id>springplugins</id>
+      <name>test4</name>
+      <url>http://repo.spring.io/plugins-release/</url>
   </repository>
 	  
   </repositories>
