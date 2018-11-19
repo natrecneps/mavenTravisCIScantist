@@ -25,19 +25,19 @@
   <dependencies>
 	  
 <dependency>
-    <groupId>org.jboss.seam</groupId>
-    <artifactId>jboss-seam</artifactId>
-    <version>2.2.2.Final</version>
+    <groupId>org.apache.struts</groupId>
+    <artifactId>struts2-core</artifactId>
+    <version>2.3.1.2</version>
 </dependency>
 
   </dependencies>
   
   <repositories>
 	  
-<repository>
-    <id>JBoss Releases</id>
-    <name>JBoss Releases</name>
-    <url>https://repository.jboss.org/nexus/content/repositories/releases/</url>
+  <repository>
+    <id>repo</id>
+    <name>repo</name>
+    <url>https://oss.sonatype.org/content/repositories/releases/</url>
 </repository>
 	  
   </repositories>
